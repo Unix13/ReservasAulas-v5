@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="450.0" spacing="20.0" style="-fx-background-color: black;" stylesheets="org/iesalandalus/programacion/reservasaulas/mvc/vista/grafica/recursos/estilos/estilos.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="264.0" fitWidth="242.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../recursos/imagenes/logo-ies.png" />
+         </image>
+         <VBox.margin>
+            <Insets bottom="20.0" />
+         </VBox.margin>
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+      </ImageView>
+      <Label style="-fx-font: 25 Arial;" text="Modulo Programación - JavaFX" textFill="WHITE" />
+      <Label style="-fx-font: 20 Arial;" text="Reserva de Aulas" textFill="WHITE" />
+      <Label style="-fx-font: 20 Arial;" text="Jesús Vivas Pantoja" textFill="WHITE" />
+   </children>
+   <padding>
+      <Insets left="20.0" right="20.0" />
+   </padding>
+</VBox>
